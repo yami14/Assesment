@@ -58,7 +58,7 @@ def putData(region,aws_access_key,aws_secret_key,aws_session_token,log_file):
     for line in init:
         if any(re.findall(r'insert', line, re.IGNORECASE)):
            print(line)
-           #INSERT INTO account (user_id, username) VALUES (101, 'Shubhankar');#
+           #INSERT INTO account (user_id, username) VALUES (101, 'Yamini');#
            payload={
                        line
                    }
